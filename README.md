@@ -39,9 +39,10 @@ Built an end-to-end machine learning workflow that imports and prepares data, ru
 - Packaged the application with a Dockerfile
 
 ---
-## Testing
-- Implemented unit tests using `pytest`
-- Validated pipeline execution and core functionality
+- ## CI/CD & Testing
+- Automated testing using GitLab CI/CD
+- Unit tests executed with `pytest`
+- - Validated pipeline execution and core functionality
 
 ## Results
 - Created a reproducible machine learning pipeline using MLflow
