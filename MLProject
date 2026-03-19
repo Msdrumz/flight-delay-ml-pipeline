@@ -1,0 +1,12 @@
+name: flight_delay_pipeline
+conda_env: pipeline_env.yaml
+
+entry_points:
+  import_data:
+    command: "python data_import.py"
+  clean_data:
+    command: "python data_cleaning.py"
+  train_model:
+    command: "python poly_regressor_Python.py"
+  main:
+    command: "python main.py"
