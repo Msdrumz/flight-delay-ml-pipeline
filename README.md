@@ -62,20 +62,23 @@ Built an end-to-end machine learning workflow that imports and prepares data, ru
 ---
 
 ## Project Structure
-```text
 flight-delay-ml-pipeline/
 │
 ├── README.md
 ├── main.py
 ├── MLproject
+├── pipeline_env.yaml
 ├── requirements.txt
-├── Dockerfile
-├── api.py
+│
+├── src/
+│   ├── data_import.py
+│   ├── data_cleaning.py
+│   └── model_training.py
+│
 ├── tests/
-│   └── test_api.py
+│   └── test_main.py
+│
 ├── artifacts/
-│   ├── model.pkl
-│   └── airport_encodings.json
-└── images/
-    ├── pipeline-diagram.png
-    └── api-response.png
+│   └── finalized_model.pkl
+│
+├── images/
