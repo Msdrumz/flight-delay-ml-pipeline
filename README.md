@@ -36,9 +36,12 @@ Built an end-to-end machine learning workflow that imports and prepares data, ru
 - Exported model artifacts for deployment
 - Built a FastAPI endpoint for predictions
 - Wrote unit tests to validate valid and invalid API requests
-- Packaged the application with a Dockerfile]
+- Packaged the application with a Dockerfile
 
 ---
+## Testing
+- Implemented unit tests using `pytest`
+- Validated pipeline execution and core functionality
 
 ## Results
 - Created a reproducible machine learning pipeline using MLflow
